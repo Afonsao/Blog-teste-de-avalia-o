@@ -1,0 +1,167 @@
+:root{
+    --preto:#08090A;
+    --branco:#FFFFFF;
+    --offwhite:#f4f7f5;
+    --rosa:#f564a9;
+    --azul:#47e0ff;
+
+}
+body{
+    background-color: var(--offwhite);
+    font-family: "Source Code Pro", monospace;
+}
+.header_container {
+    background-color: var(--azul);
+    padding: 50px;
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    font-size:20px;
+}
+.h1_container{
+    padding:50px;
+    text-align: center;
+    font-size:48px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azul);
+}
+.nav_ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav_li{
+ margin: 0 10px;
+}
+.nav_li:hover{
+    color: var(--rosa);
+    text-decoration:underline;
+    opacity:75%;
+}
+.nav_a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+.nav_a:hover{
+    color: var(--rosa);
+}
+.container_main{
+    background-color: var(--offwhite);
+    font-family: "Source Code Pro", monospace;
+}
+.container_section{
+    display:flex;
+    padding: 20px;
+    margin: 20px 0; /* Define margem superior e inferior */
+}
+.container_article{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--offwhite);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.formulario_label{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.formulario_label-textbox{
+    width: 400px;
+    border: 1px var(--offwhite);
+}
+.formulario_texto{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px var(--offwhite);
+    border-radius:   
+   5px;
+}
+.formulario_button{
+    font-family: "Source Code Pro", monospace;
+    background-color: var(--azul);
+    color: var(--preto);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    border-color: var(--azul);
+    box-shadow: 1px 1px 2px var(--rosa);
+    cursor: pointer;   
+
+    transition: all 0.3s ease;   
+
+  
+}
+.formulario_button:hover{
+    background-color: var(--rosa); /* Cor ao passar o mouse */
+  transform: scale(1.1); /* Aumenta o tamanho*/
+}
+.lista_tarefas{
+    padding: 20px;
+    margin: 20px 0; /* Define margem superior e inferior */
+}
+.lista_tarefas-li{
+    display: flex;
+    flex-direction: column;
+
+}
+.lista_tarefas-h2{
+    padding-bottom: 10px;
+}
+.lista_tarefas-button-container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 210px;
+}
+.lista_tarefas-button{
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--azul);
+    border-radius:5px;
+   font-family: "Source Code Pro", monospace;
+   background-color: var(--azul);
+    color: var(--preto);
+    cursor: pointer;
+    box-shadow: 1px 1px 2px var(--rosa);
+
+}
+.lista_tarefas-button:hover
+{
+    background-color: var(--rosa); /* Cor ao passar o mouse */
+  transform: scale(1.1); /* Aumenta o tamanho*/
+}
+.lista_tarefas-textbox{
+    width:400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px var(--offwhite);
+}
+.footer_container{
+    background-color: var(--azul);
+    padding: 20px;
+    display:flex;
+    font-size: 20px;
+}
+.subtitle{
+    font-weight:bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

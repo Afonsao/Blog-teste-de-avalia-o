@@ -1,0 +1,455 @@
+Documentação CSS - Lista de Tarefas
+Este arquivo CSS define o estilo visual para uma página web que implementa uma lista de tarefas. A estrutura do código é organizada em seções com diferentes elementos e funcionalidades.
+
+Variáveis Globais:
+
+--preto: Define a cor preta (#08090A).
+
+--branco: Define a cor branca (#FFFFFF).
+
+--offwhite: Define um tom de branco (#f4f7f5) para o fundo da página.
+
+--rosa: Define a cor rosa (#f564a9) utilizada em elementos de destaque.
+
+--azul: Define a cor azul (#47e0ff) utilizada para o cabeçalho e botões.
+
+Estilo do Corpo (body):
+
+Define o fundo da página como --offwhite.
+
+Define a fonte como "Source Code Pro" para uma aparência de código.
+
+Cabeçalho (header_container):
+
+Define o fundo do cabeçalho como --azul.
+
+Adiciona espaçamento interno (padding) de 50px.
+
+Alinha o texto ao centro.
+
+Define a fonte como "Source Code Pro".
+
+Define o tamanho da fonte para 20px.
+
+Título (h1_container):
+
+Adiciona espaçamento interno (padding) de 50px.
+
+Alinha o texto ao centro.
+
+Define o tamanho da fonte para 48px.
+
+Navegação (nav):
+
+Define a disposição dos elementos como flex para um layout responsivo.
+
+Centraliza os itens horizontalmente (justify-content: center).
+
+Centraliza os itens verticalmente (align-items: center).
+
+Define o fundo como --azul.
+
+Lista de Navegação (nav_ul):
+
+Remove os marcadores da lista (list-style: none).
+
+Remove o espaçamento interno e externo da lista (padding: 0; margin: 0;).
+
+Define a disposição dos elementos como flex.
+
+Item da Lista de Navegação (nav_li):
+
+Adiciona margem lateral de 10px para espaçamento entre os itens.
+
+Define a cor do item como --rosa e sublinha o texto ao passar o mouse (hover).
+
+Diminui a opacidade do item para 75% ao passar o mouse (hover).
+
+Link de Navegação (nav_a):
+
+Remove a sublinhação do link (text-decoration: none).
+
+Define a cor do texto como preta.
+
+Adiciona espaçamento interno (padding) para a área clicável.
+
+Conteúdo Principal (container_main):
+
+Define o fundo como --offwhite.
+
+Define a fonte como "Source Code Pro".
+
+Seção (container_section):
+
+Define a disposição dos elementos como flex para um layout responsivo.
+
+Adiciona espaçamento interno (padding) de 20px.
+
+Adiciona margem superior e inferior (margin) de 20px.
+
+Artigo (container_article):
+
+Define a flexibilidade do elemento para ocupar o espaço restante (flex: 1).
+
+Adiciona espaçamento interno (padding) de 20px.
+
+Adiciona margem de 20px.
+
+Define o fundo como --offwhite.
+
+Formulário (formulario):
+
+Define a disposição dos elementos como flex na vertical (flex-direction: column).
+
+Alinha os elementos à esquerda (align-items: start).
+
+Label do Formulário (formulario_label):
+
+Adiciona margem inferior de 20px.
+
+Adiciona espaçamento interno superior de 20px.
+
+Campo de Texto (formulario_label-textbox):
+
+Define a largura do campo para 400px.
+
+Adiciona borda fina com a cor --offwhite.
+
+Caixa de Texto (formulario_texto):
+
+Define a largura e altura da caixa para 400px e 200px respectivamente.
+
+Adiciona espaçamento interno (padding) de 10px.
+
+Adiciona margem inferior de 20px.
+
+Adiciona borda fina com a cor --offwhite.
+
+Define bordas arredondadas (border-radius).
+
+Botão (formulario_button):
+
+Define a fonte como "Source Code Pro".
+
+Define o fundo como --azul e a cor do texto como --preto.
+
+Adiciona espaçamento interno (padding) e alinha o texto ao centro.
+
+Remove a sublinhação do texto.
+
+Define o tamanho da fonte para 18px.
+
+Adiciona margem lateral de 2px e margem inferior de 4px.
+
+Define bordas arredondadas (border-radius).
+
+Define a cor da borda como --azul.
+
+Adiciona sombra ao botão com a cor --rosa.
+
+Define o cursor como um ponteiro para indicar interação.
+
+Adiciona transição suave para efeitos de hover.
+
+Botão ao passar o mouse (formulario_button:hover):
+
+Define o fundo como --rosa.
+
+Aumenta ligeiramente o tamanho do botão (transform: scale(1.1)).
+
+Lista de Tarefas (lista_tarefas):
+
+Adiciona espaçamento interno (padding) de 20px.
+
+Adiciona margem superior e inferior (margin) de 20px.
+
+Item da Lista de Tarefas (lista_tarefas-li):
+
+Define a disposição dos elementos como flex na vertical (flex-direction: column).
+
+Título da Tarefa (lista_tarefas-h2):
+
+Adiciona espaçamento interno inferior (padding) de 10px.
+
+Contêiner de Botões (lista_tarefas-button-container):
+
+Define a disposição dos elementos como flex na horizontal (flex-direction: row).
+
+Distribui os elementos uniformemente no espaço disponível (justify-content: space-between).
+
+Alinha os itens verticalmente no início (align-items: flex-start).
+
+Define a largura do contêiner para 210px.
+
+Botão da Lista de Tarefas (lista_tarefas-button):
+
+Define a largura do botão como 100px.
+
+Adiciona espaçamento interno (padding) de 10px.
+
+Adiciona margem inferior de 20px.
+
+Adiciona borda fina com a cor --azul.
+
+Define bordas arredondadas (border-radius).
+
+Define a fonte como "Source Code Pro".
+
+Define o fundo como --azul e a cor do texto como --preto.
+
+Define o cursor como um ponteiro para indicar interação.
+
+Adiciona sombra ao botão com a cor --rosa.
+
+Botão ao passar o mouse (lista_tarefas-button:hover):
+
+Define o fundo como --rosa.
+
+Aumenta ligeiramente o tamanho do botão (transform: scale(1.1)).
+
+Campo de Texto (lista_tarefas-textbox):
+
+Define a largura do campo para 400px.
+
+Adiciona espaçamento interno (padding) de 10px.
+
+Adiciona margem inferior de 20px.
+
+Adiciona borda fina com a cor --offwhite.
+
+Rodapé (footer_container):
+
+Define o fundo como --azul.
+
+Adiciona espaçamento interno (padding) de 20px.
+
+Define a disposição dos elementos como flex.
+
+Define o tamanho da fonte para 20px.
+
+Subtítulo (subtitle):
+
+Define o texto como negrito (font-weight:bold).
+
+Adiciona margem inferior e superior de 20px.
+
+Observações:
+
+Este CSS foi projetado para uma estrutura HTML específica, por isso, o uso de classes e IDs é crucial para a aplicação correta dos estilos.
+
+O código foi formatado para uma melhor legibilidade e organização.
+
+As cores e fontes podem ser personalizadas de acordo com as necessidades do projeto.
+
+Documentação HTML - Teste de avaliação
+Este arquivo HTML estrutura o conteúdo do blog "Teste de avaliação". O código utiliza HTML5 e CSS para apresentar um layout responsivo e visualmente agradável.
+
+Estrutura:
+
+<!DOCTYPE html>: Declaração do tipo de documento HTML.
+
+<html lang="pt-br">: Elemento raiz do documento, definindo o idioma como português do Brasil.
+
+<head>: Contém metadados do documento, como título, charset, viewport e links para arquivos externos.
+
+<meta charset="UTF-8">: Define o conjunto de caracteres como UTF-8 para suporte a caracteres internacionais.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Configura o metadados da viewport para otimização de visualização em dispositivos móveis.
+
+<title>Teste de avaliação</title>: Define o título do documento, exibido na aba do navegador.
+
+<link rel="stylesheet" href="style.css">: Inclui o arquivo CSS externo style.css para aplicar estilos ao documento.
+
+<link rel="stylesheet" href="reset.css">: Inclui o arquivo CSS externo reset.css para normalizar estilos dos navegadores.
+
+<link rel="preconnect" href="https://fonts.googleapis.com">: Pré-conecta com o servidor Google Fonts para acelerar o carregamento de fontes.
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>: Pré-conecta com o servidor Google Fonts (gstatic) para acelerar o carregamento de fontes.
+
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">: Inclui a fonte "Source Code Pro" do Google Fonts.
+
+<body>: Contém o conteúdo visível do documento.
+
+Elementos do Cabeçalho (header_container):
+
+<header>: Define a seção do cabeçalho da página.
+
+<nav class="nav">: Cria a barra de navegação.
+
+<ul class="nav_ul">: Lista não ordenada para os links de navegação.
+
+<li class="nav_li"><a class="nav_a" href="#titulo">Home</a></li>: Item da lista com um link para a seção "Home".
+
+<li class="nav_li"><a class="nav_a" href="#sobre">Sobre</a></li>: Item da lista com um link para a seção "Sobre".
+
+<li class="nav_li"><a class="nav_a" href="#footer">Contato</a></li>: Item da lista com um link para a seção "Contato".
+
+Elementos da Seção Principal (main):
+
+<main>: Define a seção principal do conteúdo.
+
+<h1 class="h1_container" id="titulo">Blog Teste</h1>: Título principal do blog, com a classe h1_container e o ID titulo.
+
+<section class="container_section" id="sobre">: Seção de conteúdo sobre o blog, com a classe container_section e o ID sobre.
+
+<article class="container_article">: Primeira seção de conteúdo.
+
+<h2 class="subtitle">: Subtítulo da seção.
+
+<p>: Parágrafo de texto com conteúdo da seção.
+
+<h3>: Subtítulos de nível 3 dentro da seção.
+
+<article class="container_article">: Segunda seção de conteúdo.
+
+<h2 class="subtitle">: Subtítulo da seção.
+
+<p>: Parágrafo de texto com conteúdo da seção.
+
+<h3>: Subtítulos de nível 3 dentro da seção.
+
+<section class="container_section">: Seção de formulário de contato.
+
+<form class="formulario" id="myForm">: Formulário HTML com a classe formulario e o ID myForm.
+
+<label>: Rótulos para os campos do formulário.
+
+<input>: Campos de entrada de texto e e-mail.
+
+<textarea>: Área de texto para a mensagem.
+
+<button>: Botão para enviar o formulário.
+
+<section class="lista_tarefas">: Seção da lista de tarefas.
+
+<h2 class="lista_tarefas-h2">Lista de Tarefas</h2>: Título da seção da lista de tarefas.
+
+<input class="lista_tarefas-textbox" type="text" id="lista_tarefa">: Campo de texto para adicionar novas tarefas.
+
+<div class="lista_tarefas-button-container">: Contêiner para os botões de adicionar e deletar tarefas.
+
+<button class="lista_tarefas-button" onclick="adicionar()">Adicionar</button>: Botão para adicionar tarefas, chamando a função adicionar().
+
+<button class="lista_tarefas-button" onclick="deletarItem()">Deletar</button>: Botão para deletar tarefas, chamando a função deletarItem().
+
+<ul class="lista_tarefas-li" id="lista"></ul>: Lista não ordenada (ul) que conterá as tarefas adicionadas, com o ID lista.
+
+Elementos do Rodapé (footer_container):
+
+<footer>: Define a seção do rodapé da página.
+
+<p>: Parágrafo com o nome do autor.
+
+<ul class="nav_ul">: Lista não ordenada para links de redes sociais.
+
+<li class="nav_li"><a class="nav_a" href="#">Linkedin</a></li>: Item da lista com um link para o LinkedIn.
+
+<li class="nav_li"><a class="nav_a" href="#">GitHub</a></li>: Item da lista com um link para o GitHub.
+
+
+Documentação JavaScript - Formulário e Lista de Tarefas
+Este código JavaScript implementa a funcionalidade de um formulário de contato e uma lista de tarefas, utilizando HTML e localStorage para armazenar dados.
+
+1. Formulário de Contato:
+
+Seleção de Elementos:
+
+const form = document.getElementById('myForm');: Seleciona o elemento <form> com o ID myForm.
+
+const nameInput = document.getElementById('nome');: Seleciona o elemento <input> com o ID nome.
+
+const emailInput = document.getElementById('email');: Seleciona o elemento <input> com o ID email.
+
+const messageInput = document.getElementById('mensagem');: Seleciona o elemento <textarea> com o ID mensagem.
+
+Adicionando Event Listener:
+
+form.addEventListener('submit',(event) => { ... });: Adiciona um evento submit ao formulário, que será executado quando o formulário for enviado.
+
+Prevenindo Envio Padrão:
+
+event.preventDefault();: Impede o envio padrão do formulário, que normalmente recarregaria a página.
+
+Obtendo Valores dos Campos:
+
+const name = nameInput.value;: Obtém o valor do campo de nome.
+
+const email = emailInput.value;: Obtém o valor do campo de e-mail.
+
+const message = messageInput.value;: Obtém o valor do campo de mensagem.
+
+Validação dos Campos:
+
+if (name === '' || email === '' || message === '') { ... };: Verifica se todos os campos estão preenchidos.
+
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;: Define uma expressão regular para validar o formato do e-mail.
+
+if (!emailRegex.test(email)) { ... };: Verifica se o e-mail é válido.
+
+Envio dos Dados (Exemplo):
+
+console.log('Nome:', name);: Exibe o nome no console.
+
+console.log('E-mail:', email);: Exibe o e-mail no console.
+
+console.log('Mensagem:', message);: Exibe a mensagem no console.
+
+nameInput.value = '';: Limpa o campo de nome.
+
+emailInput.value = '';: Limpa o campo de e-mail.
+
+messageInput.value = '';: Limpa o campo de mensagem.
+
+// Aqui você enviaria os dados para um servidor usando uma biblioteca como Fetch API ou Axios: Observação: Esta parte do código é um comentário e indica onde você adicionaria o código para enviar os dados para um servidor usando bibliotecas como Fetch API ou Axios.
+
+// ...: Observação: Aqui você adicionaria o código para enviar os dados para um servidor.
+
+2. Lista de Tarefas:
+
+Função adicionar():
+
+const nome = document.getElementById('lista_tarefa').value;: Obtém o valor do campo de texto para adicionar tarefas.
+
+const lista = JSON.parse(localStorage.getItem('itens')) || [];: Obtém a lista de tarefas armazenada no localStorage ou cria uma lista vazia caso ela não exista.
+
+lista.push(nome);: Adiciona a nova tarefa à lista.
+
+localStorage.setItem('itens', JSON.stringify(lista));: Salva a lista atualizada no localStorage.
+
+mostrarLista();: Chama a função para atualizar a lista na tela.
+
+Função mostrarLista():
+
+const lista = JSON.parse(localStorage.getItem('itens')) || [];: Obtém a lista de tarefas do localStorage.
+
+const ul = document.getElementById('lista');: Seleciona a lista não ordenada (ul) com o ID lista.
+
+ul.innerHTML = '';: Limpa o conteúdo da lista antes de atualizar.
+
+lista.forEach(item => { ... });: Itera sobre cada item da lista e cria um elemento li para cada um.
+
+const li = document.createElement('li');: Cria um elemento li.
+
+li.textContent = item;: Define o texto do elemento li com o conteúdo da tarefa.
+
+ul.appendChild(li);: Adiciona o elemento li à lista ul.
+
+Chamada Inicial da Função mostrarLista():
+
+mostrarLista();: Executa a função mostrarLista() ao carregar a página para exibir as tarefas armazenadas no localStorage.
+
+Função deletarItem():
+
+const lista = JSON.parse(localStorage.getItem('itens')) || [];: Obtém a lista de tarefas do localStorage.
+
+const indice = lista.findIndex(item => item.id === id);: Procura o índice do item a ser removido na lista (considerando que os itens possuem um atributo id para identificação).
+
+if (indice !== -1) { ... };: Se o item for encontrado, remove-o da lista.
+
+lista.splice(indice, 1);: Remove o item do array.
+
+localStorage.setItem('itens', JSON.stringify(lista));: Atualiza o localStorage com a lista modificada.
+
+mostrarLista();: Chama a função para atualizar a lista na tela.
+
+else { ... };: Se o item não for encontrado, exibe uma mensagem no console.
